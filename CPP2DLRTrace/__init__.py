@@ -1,7 +1,9 @@
 import pycparser
 from pycparser import c_parser, c_ast, parse_file, preprocess_file
 from pathlib import Path
+from warnings import warn
 
+warn("We have moved from M$ GitHub to https://codeberg.org/KOLANICH-tools/CPP2DLRTrace.py , read why on https://codeberg.org/KOLANICH/Fuck-GuanTEEnomo .")
 
 class UnprocessibleFunc(Exception):
 	pass
